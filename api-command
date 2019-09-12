@@ -1,0 +1,32 @@
+
+# Update the packages installed on the operating system
+
+sudo apt update
+
+
+
+# Install the `links` browser 
+
+sudo apt install 
+
+
+
+# Clear the terminal
+
+clear
+
+# Open the browser
+
+links
+########
+
+avaScript Object Notation (JSON)
+ 
+What does it do?
+Allows us to structure and share data across the web
+ 
+How do you use it?
+JSON can be read from an API and manipulated using any programming language
+
+swapi.co
+https://swapi.co
