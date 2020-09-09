@@ -26,3 +26,34 @@ curl https://ci-swapi.herokuapp.com/api/people/1/
 # Make a call to get the person who has an ID of 1, and format it using
 # the Python JSON tool
 curl https://ci-swapi.herokuapp.com/api/people/1/ | python3 -m json.tool
+
+
+var xhr = new XMLHttpRequest();
+var data;
+
+xhr.open("GET", "https://ci-swapi.herokuapp.com/api/");
+xhr.se
+xhr.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        data = this.responseText;
+    };
+}
+
+console.log(data);
+
+--------------------------------------------------------------//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
